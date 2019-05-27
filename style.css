@@ -1,0 +1,25 @@
+header{
+	display: block;
+	float: right;
+
+}
+ul{
+	list-style: none;
+
+}
+input{
+	display: block;
+}
+button{
+
+}
+nav{
+	display: flex;
+	background-color: #9A969C;
+	height: 100%;
+	margin-right: 500px;		
+}
+.icon{
+	width: 20%;
+
+}
