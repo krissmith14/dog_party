@@ -1,25 +1,35 @@
-header{
-	display: block;
-	float: right;
-
-}
-ul{
-	list-style: none;
-
-}
-input{
-	display: block;
-}
-button{
-
-}
 nav{
-	display: flex;
-	background-color: #9A969C;
-	height: 100%;
-	margin-right: 500px;		
+  height: 75px;
+  background-color: #75e2e6;
+  border-style: solid; 
 }
-.icon{
-	width: 20%;
+img{
+	float: left;
+	padding-left: 10px;
+	padding-top: 10px;
+}
 
+ul{ 	
+  float:right;	
+  list-style-type: none; 
+  display: inline;
 }
+
+li{
+	float: right;
+	padding-top: 13px;
+	padding-right: 30px;
+}
+main{
+	background-image: url("images/dog-party-assets/park.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+  
+}
+section{
+  float: left;
+  margin-left: 150px;
+  margin-right:150px;
+  
+}  
+  
