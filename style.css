@@ -1,14 +1,26 @@
+*{
+	border: solid 1px;
+	box-sizing: border-box;
+}
 .div_1{
-  display: inline-block;
   background: #75e2e6;
   width: 100%;
   height: 70px;
 }
+nav{
+	margin: 0;
+}
 ul{
+  margin: 0px;	
+  height: 70px;
   list-style: none; 
 } 
-li{
-  float: right; 
+li{ 
+  float: right;
+  margin: 25px;
+}
+.dog_icon{
+	margin-top: 10px;
 }
 .div_2{
   background-image: url("images/dog-party-assets/park.jpg"); 
