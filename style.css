@@ -1,9 +1,10 @@
 *{
-	border: solid 1px;
+	border: solid 0px;
 	box-sizing: border-box;
 	font-family: 'Open Sans'; 
 }
 .div_1{
+  margin-top: 0;		
   background: #75e2e6;
   width: 100%;
   height: 70px;
@@ -29,15 +30,18 @@ li{
 }
 .div_2{
   background-image: url("images/dog-party-assets/park.jpg"); 
+  background-color: black;
+  background-blend-mode: screen;
   background-repeat: no-repeat;
   background-size: 100% 100%;
   width: 100%;
-  height: 400px;
+  height: 550px;
   align-content: center;
 }
 .site_about_dogs{
 	width: 40%;
 	height: 100%;
+	font-size: 27px;
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
@@ -48,21 +52,24 @@ li{
 }
 
 .dog_1{
-    width: 40%;
-    height: 40%;
+    width: 35%;
+    height: 35%;
     margin:auto;
     margin-top: 40px;
     border-radius: 50%;
+    border-color: #75e2e6;
+    border-width: 3.5px;
 }
 .name{
 	display: block;
 	color: white;
 	width: 10%;
-	margin-left: 25%;
+	margin-left: 20%;
 	margin-bottom: 1%;
+	font-size: 15px;
 }
 input{
-	width: 50%;
+	width: 60%;
 	height:7.5%;
 	margin-bottom: 12.5px;
 }
@@ -71,13 +78,15 @@ button{
 	display:block;
 	margin-left: auto;
 	margin-right:auto;
-	width: 50%;
+	width: 60%;
 	height: 7.5%;
+	font-size: 15px;
+	font-weight: bold;	
 }
 
 .div_3{
   width: 100%;
-  height: 425px;
+  height: 475px;
 
 }
 .div_4{
@@ -92,10 +101,42 @@ button{
   margin-left: 32px;
   background: white; 
   text-align: center; 
+  font-size: 14px;
+
+}
+.doggies{
+	height: 30%;
+	width: 45%;
+	border-radius: 50%;
+	border-color: #048eaa;
+	border-width: 3.5px;
+}
+.paragraph{
+  width: 75%;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: left;
+
+}
+.lower_buttons{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+	height: 8.5%;
+	background-color: #048eaa;
+	color: #ffffff;
+	font-size: 15px;
 }
 
 .title{
 	width: 100%;
-	margin-top: 0;
+	font-weight: ;
+	font-size: 20px;
+}
+.sm_div{
+	margin-top: 30px;
+	width: 100%;
+	text-align: center;
 }
 

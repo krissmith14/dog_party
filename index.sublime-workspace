@@ -4,6 +4,50 @@
 		"selected_items":
 		[
 			[
+				"top",
+				"margin-top\tproperty"
+			],
+			[
+				"fo",
+				"font-style\tproperty"
+			],
+			[
+				"margin-",
+				"margin-bottom\tproperty"
+			],
+			[
+				"margin",
+				"margin-top\tproperty"
+			],
+			[
+				"marg",
+				"margin-right"
+			],
+			[
+				"border-bott",
+				"border-bottom-color\tproperty"
+			],
+			[
+				"p",
+				"padding\tproperty"
+			],
+			[
+				"border-c",
+				"border-color\tproperty"
+			],
+			[
+				"fa",
+				"font-family\tproperty"
+			],
+			[
+				"padd",
+				"padding-left\tproperty"
+			],
+			[
+				"block",
+				"block\tdisplay"
+			],
+			[
 				"hea",
 				"header\tTag"
 			],
@@ -26,10 +70,6 @@
 			[
 				"h",
 				"h2\tTag"
-			],
-			[
-				"fo",
-				"footer\tTag"
 			]
 		]
 	},
@@ -68,13 +108,16 @@
 	},
 	"file_history":
 	[
-		"/Users/kristinasmith/Downloads/html-css-workshop-v4-master/img/denver.jpg",
+		"/Users/kristinasmith/dog_party/images/dog-party-assets/dog2-sq.jpg",
+		"/Users/kristinasmith/dog_party/images/dog-party-assets/park.jpg",
 		"/Users/kristinasmith/Downloads/html-css-workshop-v4-master/img/chicago.jpg",
+		"/Users/kristinasmith/dog_party/images/dog-party-assets/dog-icon.svg",
+		"/Users/kristinasmith/Downloads/html-css-workshop-v4-master/img/denver.jpg",
 		"/Users/kristinasmith/Downloads/html-css-workshop-v4-master/12.18"
 	],
 	"find":
 	{
-		"height": 0.0
+		"height": 24.0
 	},
 	"find_in_files":
 	{
@@ -112,7 +155,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 0.0
+		"height": 24.0
 	},
 	"input":
 	{
@@ -149,7 +192,7 @@
 	"project": "index.sublime-project",
 	"replace":
 	{
-		"height": 0.0
+		"height": 44.0
 	},
 	"save_all_on_build": true,
 	"select_file":
