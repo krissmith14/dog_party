@@ -141,7 +141,6 @@ button{
 	width: 100%;
 	margin-top: 25px;
 	margin-bottom: 15px;
-	font-weight: ;
 	font-size: 20px;
 }
 .sm_div{
@@ -154,5 +153,6 @@ button{
 }
 @media screen and (max-width:800px) {
   .left, .main, .right {
-    width:100%; 
-
+	width:100%; 
+  }
+}
