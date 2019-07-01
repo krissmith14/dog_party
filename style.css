@@ -1,5 +1,5 @@
 *{
-	margin: 1px;
+	margin: 0px;
 	border: solid 0px;
 	box-sizing: border-box;
 	font-family: 'Open Sans'; 
@@ -22,6 +22,8 @@ ul{
   margin: 0px;	
   height: 70px;
   list-style: none; 
+  border-bottom-width: 5px;
+  border-bottom-color: #048eaa;
 } 
 li{ 
   float: right;
@@ -30,7 +32,7 @@ li{
 .dog_icon{
 	max-width: 15%;
 	margin-top: 10px;
-	margin-left: -40px;
+	margin-left: -75px;
 }
 .div_2{
   background-image: url("images/dog-party-assets/park.jpg"); 
@@ -49,13 +51,14 @@ li{
 	
 }
 .some_dogs{
-	max-width: 100%;
+	max-width: 63%;
 	color: white;
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
 	font-size: 23.5px;
 	font-weight: bolder;
+	padding-top: 15px;
 
 }
 
@@ -65,7 +68,7 @@ li{
     margin:auto;
     margin-top: 40px;
     border-radius: 50%;
-    border-color: #75e2e6;
+    border-color: #048eaa;
     border-width: 3.5px;
 }
 .name{
@@ -145,7 +148,7 @@ button{
 	width: 100%;
 	margin-top: 25px;
 	margin-bottom: 15px;
-	font-size: 20px;
+	font-size: 25px;
 }
 .sm_div{
 	margin-top: 30px;	
@@ -176,26 +179,51 @@ button{
 	li{
 		font-size: 12px;
 	}
+   .some_dogs{
+	   padding-top: 15px;
+    }
   .dog_1 {
-	max-width: 48%;
-  }
-	.how_to_dog {
+	max-width: 95%;
+   }
+  button{
+    	font-size: 13px;
+    }
+  .how_to_dog {
 		max-width: 84%;
-		height: 114%;
-  }
+		height: 125%;
+   }
   .div_4{
 	height: 139px;
-    margin-top: 1090px;
-  }
+    margin-top: 1190px;
+   }
   .lower_buttons{
 	  height: 12.5%;
-  }
-}
+   }
+  .name {
+    display: block;
+    color: white;
+    width: 20%;
+    margin-left: 10%;
+    margin-bottom: 1%;
+    font-size: 15px;
+    margin-top: 20%;
+   }
+   .dog_icon {
+    max-width: 15%;
+    margin-top: 10px;
+    margin-left: -35px;
+   }
+ }
 
-@media screen and (max-width:350px) {
+@media screen and (max-width:415px) {
 	li {
 		font-size: 11px;
 	}
+	.some_dogs{
+		font-size: 19.5px;
+
+	}
+
 	.how_to_dog{    
 		height: 135%;
 	}
@@ -209,5 +237,9 @@ button{
 	button{
 		font-size: 12px;
 	}
+	.dog_icon {
+    max-width: 10%;
+    margin-top: 10px;
+    margin-left: -20px;
 }
-
+}
