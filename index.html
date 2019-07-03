@@ -5,9 +5,9 @@
 		<title>Dog Party
 		</title>
 		<link rel="stylesheet" href="./style.css" type="text/css"/>
+		<script src="basic.js"></script>
 		<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 	</head>
-
 	<body>
 		<main class="div_1">
   			<nav>
@@ -19,17 +19,15 @@
     			</ul>
   			</nav>
 		</main>
-
 		<section class="div_2">
 			<div class="site_about_dogs">
-				<p class="some_dogs">Site About Some Dogs</p>
+				<h1 class="some_dogs">Site About <span id="spanId">Some Dogs </span></h1>
 				<img class="dog_1" src="images/dog-party-assets/dog-1.jpg">
 				<p class="name">Name</p>
-				<input type="text"></input>
-				<button>Name This Dog</button>
+				<input id="text_1" type="text"></input>
+				<button onClick="myFunction()" id="button_1" type="submit">Name This Dog</button>
 			</div>
 		</section>
-
 		<section class="div_3"> 
   			<section class="how_to_dog">
     			<p class="title">How to Dog</p>
@@ -50,7 +48,6 @@
     			<button class="lower_buttons">Facts</button>
 			  </section>
 		</section>
-		
 		<footer class="div_4">
   			<p class="bottom_title" align=center>Learn About Dogs Online</p>
   			<nav class="sm_div">
@@ -60,6 +57,5 @@
   				<img class="sm_buttons" src="images/dog-party-assets/linkedin.svg">
 			</nav>
 		</footer>
-	</body>
-		
+	</body>	
 </html>
